@@ -50,7 +50,7 @@ public class BooksControllerV2 {
 					|| book.getBookDescription().isEmpty() || book.getBookId() <= 0) {
 				throw new ApplicationException(ErrorCodes.BAD_REQUEST_CODE,
 						String.format("Book Name, Book description, Quantity should not be empty"),
-						HttpStatus.BAD_REQUEST);
+						HttpStatus.BAD_REQUEST, null);
 			}
 		}
 	}
