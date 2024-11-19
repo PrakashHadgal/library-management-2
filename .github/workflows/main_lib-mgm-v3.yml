@@ -51,4 +51,4 @@ jobs:
           app-name: 'lib-mgm-v3'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7698BBDC3F1345CC929AD84D6CE83C56 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1C19847859A6409E8DB3F3B65495E69B }}
